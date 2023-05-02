@@ -4,22 +4,15 @@
  *  Created on: Apr 29, 2023
  *      Author: ahmed
  */
-
-
 #include <stdio.h>
-int sum(int num)
-{
-	for(int i=0;i<num;i++)
-	{
-		return num+sum(num-1);
-	}
-	return 0;
-}
 void main ()
 {
-	int num;
-	printf("enter an integer: ");
+	char alpha;
+	printf("enter a charcter: ");
 	fflush(stdin); fflush(stdout);
-	scanf("%d",&num);
-	printf("sum= %d",sum(num));
+	scanf("%c",&alpha);
+	if ((alpha>=65 && alpha <=90)||(alpha>=97 && alpha<=122)) printf("is an alphabert");
+	else printf("is not an alphabet");
+
 }
+

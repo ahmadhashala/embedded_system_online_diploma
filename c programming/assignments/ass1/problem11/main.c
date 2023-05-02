@@ -7,12 +7,13 @@
 #include <stdio.h>
 void main ()
 {
-	float a,b,c ;
-	printf("enter three numbers: ");
+	float number;
+	printf("enter a number: ");
 	fflush(stdin); fflush(stdout);
-	scanf("%f %f %f",&a,&b,&c);
-	if (a>b&&a>c) printf("largest number= %f",a);
-	else if (b>a&&b>c) printf("largest number= %f",b);
-	else printf("largest number= %f",c);
+	scanf("%f",&number);
+	if (number>0) printf("the number is positive");
+	else if (number == 0) printf("the number is zero");
+	else printf("the number is negative");
 
 }
+

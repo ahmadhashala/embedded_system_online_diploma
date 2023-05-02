@@ -4,16 +4,22 @@
  *  Created on: Apr 29, 2023
  *      Author: ahmed
  */
+
+
 #include <stdio.h>
+int sum(int num)
+{
+	for(int i=0;i<num;i++)
+	{
+		return num+sum(num-1);
+	}
+	return 0;
+}
 void main ()
 {
-	float number;
-	printf("enter a number: ");
+	int num;
+	printf("enter an integer: ");
 	fflush(stdin); fflush(stdout);
-	scanf("%f",&number);
-	if (number>0) printf("the number is positive");
-	else if (number == 0) printf("the number is zero");
-	else printf("the number is negative");
-
+	scanf("%d",&num);
+	printf("sum= %d",sum(num));
 }
-
