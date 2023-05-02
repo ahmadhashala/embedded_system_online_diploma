@@ -1,6 +1,10 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
-configDescList=org.eclipse.launchbar.core.descriptorType.default\:problem1.exe,org.eclipse.launchbar.core.descriptorType.default\:problem3.exe,org.eclipse.launchbar.core.descriptorType.default\:problem2.exe,org.eclipse.launchbar.core.descriptorType.default\:problem4.exe,org.eclipse.launchbar.core.descriptorType.default\:problem5.exe,org.eclipse.launchbar.core.descriptorType.default\:problem6.exe
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:problem11.exe,org.eclipse.launchbar.core.descriptorType.default\:problem1.exe,org.eclipse.launchbar.core.descriptorType.default\:problem3.exe,org.eclipse.launchbar.core.descriptorType.default\:problem2.exe,org.eclipse.launchbar.core.descriptorType.default\:problem4.exe,org.eclipse.launchbar.core.descriptorType.default\:problem5.exe,org.eclipse.launchbar.core.descriptorType.default\:problem6.exe,org.eclipse.launchbar.core.descriptorType.default\:problem8.exe,org.eclipse.launchbar.core.descriptorType.default\:problem 9.exe,org.eclipse.launchbar.core.descriptorType.default\:problem12.exe,org.eclipse.launchbar.core.descriptorType.default\:problem 13.exe,org.eclipse.launchbar.core.descriptorType.default\:problem13.exe,org.eclipse.launchbar.core.descriptorType.default\:problem14.exe,org.eclipse.launchbar.core.descriptorType.default\:problem15.exe
 eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:problem\ 13.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:problem\ 13.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:problem\ 9.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:problem\ 9.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
 org.eclipse.launchbar.core.descriptorType.default\:problem1.exe/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:problem1.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

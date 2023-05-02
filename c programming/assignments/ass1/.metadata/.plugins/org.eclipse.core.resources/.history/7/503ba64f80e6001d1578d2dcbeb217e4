@@ -1,0 +1,18 @@
+/*
+ * main.c
+ *
+ *  Created on: Apr 29, 2023
+ *      Author: ahmed
+ */
+#include <stdio>
+void main ()
+{
+	float a,b,c ;
+	printf("enter three numbers: ");
+	fflush(stdin); fflush(stdout);
+	scanf("%f %f %f",&a.&b,&c);
+	if (a>b||a>c) print("largest number= %f",a);
+	else if (b>a||b>c) print("largest number= %f",b);
+	else printf("largest number= %f",c");
+
+}
